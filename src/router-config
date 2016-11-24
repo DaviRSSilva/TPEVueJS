@@ -1,0 +1,15 @@
+import App from './Hello.vue'
+import Foo from './Foo.vue'
+
+export const routes = [
+  {
+    path: '/',
+    component: App,
+    children: []
+  },
+  {
+   path: '/foo/',
+   component: Foo,
+   children: []
+  }
+];
